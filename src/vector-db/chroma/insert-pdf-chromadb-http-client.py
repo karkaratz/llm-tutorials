@@ -21,7 +21,7 @@ chunk_overlap = 10  # change with your overlap size.
 
 # Connection to an embedding engine that is supporting OpenAI apis.
 # In this example, I'm using LM Studio with nomic-ai/nomic-embed-text-v1.5-GGUF
-# If you want to run it agains standard OpenAI embeddings, use the standard OpenAI configuration.
+# If you want to run it against standard OpenAI embeddings, use the standard OpenAI configuration.
 embeddings = OpenAIEmbeddings(
     base_url="http://localhost:1234/v1", # My LM studio is running on localhost, port 1234
     api_key="not-needed", # My LM Studio does not require a password.
