@@ -23,9 +23,9 @@ chunk_overlap = 10  # change with your overlap size.
 # In this example, I'm using LM Studio with nomic-ai/nomic-embed-text-v1.5-GGUF
 # If you want to run it against standard OpenAI embeddings, use the standard OpenAI configuration.
 embeddings = OpenAIEmbeddings(
-    base_url="http://localhost:1234/v1", # My LM studio is running on localhost, port 1234
-    api_key="not-needed", # My LM Studio does not require a password.
-    model="gpt2", # Just a string. My LM Studio does not require to specify the model. Needed in other cases.
+    base_url="http://localhost:1234/v1",    # My LM studio is running on localhost, port 1234
+    api_key="not-needed",   # My LM Studio does not require a password.
+    model="gpt2",           # Just a string. My LM Studio does not require to specify the model. Needed in other cases.
     tiktoken_enabled=False
 )
 
