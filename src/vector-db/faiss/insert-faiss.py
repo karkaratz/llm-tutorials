@@ -7,10 +7,10 @@ from langchain_community.vectorstores import FAISS
 
 load_dotenv()
 # Path of the document to read (This example explores the loading of a single document)
-pdf_path = "<YOUR_FILE_PATH_HERE>"
+pdf_path = "Poorpoorpoorman.pdf"
 
 # Full path and file_name for your FAISS index.
-save_path = "<YOUR_FILE_PATH_HERE/YOUR_FILENAME"
+save_path = "index_faiss"
 
 # How to split and embed the text
 chunk_size = 300    # change with your size
